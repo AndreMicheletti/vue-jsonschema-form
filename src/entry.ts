@@ -1,8 +1,9 @@
-import JsonSchema, { JsonSchemaArray, JsonSchemaArrayForm } from '@/JsonSchema/index.ts'
+import JsonSchema, { JsonSchemaArray, JsonSchemaArrayForm, JsonSchemaForm } from '@/JsonSchema/index.ts'
 
 export default JsonSchema
 
 export {
   JsonSchemaArray,
-  JsonSchemaArrayForm
+  JsonSchemaForm,
+  JsonSchemaArrayForm,
 }
